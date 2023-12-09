@@ -91,3 +91,13 @@ To learn useful settings, google it
 ```
 
 If the specific package has problems with your project, you can override the version of that dependency with dependency_overrides.  
+
+## Creating Flutter Project
+
+You can save your terminal codes in `filename.sh`
+
+Run scripts in terminal:
+
+```
+sh script/filename.sh
+```

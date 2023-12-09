@@ -1,0 +1,19 @@
+{
+    "home":{
+        "title": "Ana Sayfa"
+    },
+
+    "general":{
+        "button":{
+            "save": "Kaydet"
+        },
+        "dialog":{
+            "warning":{
+            "title": "Uyarı",
+            "message": "İşlemi gerçekleştirmek istediğinize emin misiniz?",
+            "yes": "Evet",
+            "no": "Hayır"
+            }
+        }
+    }
+}
