@@ -4,6 +4,24 @@ Flutter: 3.16.3
 
 Dart 3.2.3
 
+## VSCode Extensions
+
+Awesome Flutter Snippets
+
+Flutter Helpers
+
+Flutter Color
+
+Flutter Tree
+
+Dart (Syntax Highlighting Only)
+
+Dart Barrel Export File Generator
+
+Dart Data Class Generator
+
+Build Runner
+
 ## Creating Flutter Project
 
 ```
@@ -58,3 +76,18 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
   }
 }
 ```
+
+## Define Project Settings
+
+In .vscode > settings.json file, you can define project settings
+
+To learn useful settings, google it
+
+## Dependency Override in pubspec.yaml
+
+```dart
+# dependency_overrides: 
+#   cupertino_icons: ^1.0.1
+```
+
+If the specific package has problems with your project, you can override the version of that dependency with dependency_overrides.  
