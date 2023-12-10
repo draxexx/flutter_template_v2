@@ -5,6 +5,7 @@ import 'package:flutter_template_v2/product/init/config/app_environment.dart';
 import 'package:flutter_template_v2/product/init/language/locale_keys.g.dart';
 import 'package:flutter_template_v2/product/init/product_localization.dart';
 import 'package:flutter_template_v2/product/utility/constants/enums/locales.dart';
+import 'package:gen/gen.dart';
 import 'package:kartal/kartal.dart';
 
 part 'widget/home_app_bar.dart';
@@ -24,6 +25,12 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
+          // Assets.icons.icLove.svg(
+          //   package: 'gen',
+          // ),
+          Assets.lottie.animZombie.lottie(
+            package: 'gen',
+          ),
           Text(AppEnvironment.baseUrl),
           const Text('change language'),
           ElevatedButton(

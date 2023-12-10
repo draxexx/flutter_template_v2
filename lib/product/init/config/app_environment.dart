@@ -1,7 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:flutter_template_v2/product/init/config/app_configuration.dart';
-import 'package:flutter_template_v2/product/init/config/env_dev.dart';
-import 'package:flutter_template_v2/product/init/config/env_prod.dart';
+import 'package:gen/gen.dart';
 
 /// application environment manager class
 final class AppEnvironment {
@@ -12,7 +10,7 @@ final class AppEnvironment {
 
   /// general application environment setup
   AppEnvironment.general() {
-    _config = kDebugMode ? EnvDev() : EnvProd();
+    _config = kDebugMode ? DevEnv() : ProdEnv();
   }
 
   static late final AppConfiguration _config;

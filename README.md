@@ -103,3 +103,17 @@ Run scripts in terminal:
 ```
 sh script/filename.sh
 ```
+
+## JSON to Dart Model
+
+https://dartj.web.app/
+
+## Reading Assets From The Package
+
+```dart
+Assets.lottie.animZombie.lottie(
+            package: 'gen',
+          ),
+```
+
+Need to give `package` property with the package name
