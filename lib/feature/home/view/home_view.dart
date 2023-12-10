@@ -5,6 +5,7 @@ import 'package:flutter_template_v2/product/init/config/app_environment.dart';
 import 'package:flutter_template_v2/product/init/language/locale_keys.g.dart';
 import 'package:flutter_template_v2/product/init/product_localization.dart';
 import 'package:flutter_template_v2/product/utility/constants/enums/locales.dart';
+import 'package:kartal/kartal.dart';
 
 part 'widget/home_app_bar.dart';
 
@@ -30,7 +31,10 @@ class _HomeViewState extends State<HomeView> with HomeViewMixin {
               context: context,
               value: Locales.tr,
             ),
-            child: const Text(LocaleKeys.general_button_save).tr(),
+            child: Text(
+              LocaleKeys.general_button_save,
+              style: context.general.textTheme.bodySmall,
+            ).tr(),
           ),
         ],
       ),
