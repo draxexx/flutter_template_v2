@@ -1,3 +1,4 @@
+import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_template_v2/feature/home/view/mixin/home_view_mixin.dart';
@@ -10,7 +11,8 @@ import 'package:kartal/kartal.dart';
 
 part 'widget/home_app_bar.dart';
 
-class HomeView extends StatefulWidget {
+@RoutePage()
+final class HomeView extends StatefulWidget {
   const HomeView({super.key});
 
   @override
