@@ -22,6 +22,8 @@ Dart Data Class Generator
 
 Build Runner
 
+Code Spell Checker
+
 ## Creating Flutter Project
 
 ```

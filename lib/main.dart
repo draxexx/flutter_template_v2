@@ -1,18 +1,18 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_template_v2/feature/home/view/home_view.dart';
+import 'package:flutter_template_v2/product/init/application_initialize.dart';
 import 'package:flutter_template_v2/product/init/product_localization.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await EasyLocalization.ensureInitialized();
-  runApp(ProductLocalization(child: const MyApp()));
+  await ApplicationInitialize().make();
+  runApp(ProductLocalization(child: const _MyApp()));
 }
 
 /// Main App
-class MyApp extends StatelessWidget {
+class _MyApp extends StatelessWidget {
   /// Main App
-  const MyApp({super.key});
+  const _MyApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
