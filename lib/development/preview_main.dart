@@ -6,10 +6,15 @@ import 'package:flutter_template_v2/product/init/product_localization.dart';
 import 'package:flutter_template_v2/product/init/theme/custom_dark_theme.dart';
 import 'package:flutter_template_v2/product/init/theme/custom_light_theme.dart';
 import 'package:widgets/widgets.dart';
+import 'package:device_preview/device_preview.dart';
 
 void main() async {
   await ApplicationInitialize().make();
-  runApp(ProductLocalization(child: const _MyApp()));
+  runApp(
+    DevicePreview(
+      builder: (context) => ProductLocalization(child: const _MyApp()),
+    ),
+  );
 }
 
 /// Main App

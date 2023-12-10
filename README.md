@@ -110,3 +110,20 @@ Assets.lottie.animZombie.lottie(
 ```
 
 Need to give `package` property with the package name
+
+## Launch App With Another Main File
+
+1. Click on the Run and Debug section on the Left menu
+2. Click on the settings icon on the top and open 'launch.json' file
+3. 
+- **name:** give any name
+- **args:** target path of the main file
+```json
+{
+      "name": "PREVIEW flutter_template_v2",
+      "request": "launch",
+      "type": "dart",
+      "args": ["--target=lib/development/preview_main.dart"]
+    },
+```
+4. Select the main file on the RUN AND DEBUG section
