@@ -6,23 +6,16 @@ Dart 3.2.3
 
 ## VSCode Extensions
 
-Awesome Flutter Snippets
-
-Flutter Helpers
-
-Flutter Color
-
-Flutter Tree
-
-Dart (Syntax Highlighting Only)
-
-Dart Barrel Export File Generator
-
-Dart Data Class Generator
-
-Build Runner
-
-Code Spell Checker
+- Awesome Flutter Snippets
+- Flutter Helpers
+- Flutter Color
+- Flutter Tree
+- Dart (Syntax Highlighting Only)
+- Dart Barrel Export File Generator
+- Dart Data Class Generator
+- Build Runner
+- Code Spell Checker
+- Command List
 
 ## Creating Flutter Project
 
