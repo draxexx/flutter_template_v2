@@ -14,24 +14,24 @@ dependencies:
 
   cupertino_icons: ^1.0.2
 
-  # Core    
+  # Core
   equatable: ^2.0.5
+  get_it: ^7.6.4
+
+  # Network Dependencies
+  vexana: ^3.5.4
 
   # State
-  flutter_riverpod: ^2.4.9
+  flutter_bloc: ^8.1.3
 
   # Config
   easy_localization: ^3.0.3
 
   # Utility
+  easy_logger: ^0.0.2
   logger: ^2.0.2+1
-  kartal: ^3.4.4
-
-  # Network
-  vexana: ^3.5.4
-
-  # Navigation
-  auto_route: ^7.8.4
+  kartal: ^3.5.0
+  google_fonts: ^6.1.0
 
   # Modules
   widgets:
@@ -40,6 +40,8 @@ dependencies:
     path: module/gen
   common:
     path: module/common
+  core:
+    path: module/core
 
 # dependency_overrides: 
 #   cupertino_icons: ^1.0.1
